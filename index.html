@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Task</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button
+              class="accordion-button collapsed shadow-none"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              <a id="welcome-link">Welcome</a>
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./images/img-thank-you.jpg" class="col-12 col-m-6" alt="Thank you image" />
+                </div>
+                <div class="col-8 p-1 text text-block">
+                  <p>Dear Candidate,</p>
+                  <p>
+                    Thank you for spanding your time on that task. We hoe it
+                    won't cause any difficulties and we will see you soon.
+                  </p>
+                  <p>With kindest regards, <br /><br />
+                  WCM Team
+                  </p>
+                  <!-- <p>WCM Team</p> -->
+                </div>
+              </div>
+              <div class="row my-4">
+                <div class="col-8 p-1 text-block">
+                    <h2>
+                        To Do list:
+                    </h2>
+                    <ul class="text">
+                        <li>Acordion that is horizontally and vertically centered on the page</li>
+                        <li>The acordion opens and closes on clic and the icon changes accordingly (" <sup><i class="arrow down"></sup></i> " when opened and " <i class="arrow up"></i> " when closed)</li>
+                        <li>2 rows of content (image -text; text image)</li>
+                        <li>image-text ratio = 1:2</li>
+                        <li>text is vertically centered with the image</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <img src="./images/img-to-do.jpg" class="col-12" alt="Cup of Coffee and To Do list">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
